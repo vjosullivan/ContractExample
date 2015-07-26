@@ -24,9 +24,9 @@ struct PersonViewModel {
         }
         return true
     }
-    /*:
-    Because pre-conditions are assumed to have been met, the operation is greatly simplified and focussed on its own responsibility (meeting the post-conditions).
-    */
+/*:
+Because pre-conditions are assumed to have been met, the operation is greatly simplified and focussed on its own responsibility (meeting the post-conditions).
+*/
     func createPerson() -> Person {
         // "Do or do not.  There is no try."
         return Person(name: name!, age: Int(age!)!)
